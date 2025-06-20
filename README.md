@@ -69,14 +69,15 @@ As a Data Analyst on a major U.S. carrier’s analytics team, my mission is to:
 
 ---
 
-## 📊 Results & Insights  
+## 📊 Results & Insights
 
-> _Replace the bullets below with your actual findings once you run the notebook._
+* **Worst-performing hub:** EV (ExpressJet) – highest average departure delay (~19.8 mins) and arrival delay (~15.8 mins)  
+* **Best on-time carrier:** HA (Hawaiian Airlines) – lowest departure delays (~4.9 mins) and even early arrivals on average  
 
-* **XGBoost ROC-AUC:** **0.82** (↑ 15 pp over baseline)  
-* **Top delay drivers:** late inbound aircraft, peak-hour congestion, long-haul routes  
-* **Worst-performing hub:** _XXX_ – 35 % of flights depart ≥ 15 min late  
-* **Best on-time carrier:** _YYY_ – maintains sub-6 min median departure delay year-round  
+> ✈️ **Airline Delay Performance**
+- **EV (ExpressJet)** and **F9 (Frontier)** have the highest average delays and % of flights delayed 15+ minutes  
+- **HA (Hawaiian Airlines)** consistently runs early  
+- **DL (Delta)** and **AA (American)** perform moderately
 
 See the full analysis in **`flight_delay_analysis.ipynb`**.
 
